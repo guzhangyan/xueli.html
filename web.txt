@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>雪梨在线</title>
+	<style>
+	a {
+      text-decoration: none;
+    }
+    ul,li {
+      list-style-type: none;
+    }
+	     * {padding: 0;margin: 0;line-height: 1}
+	     .guzhangyan{width: 1920px}
+	    .ha{width:1210px; height:101px;margin: 0 auto;}
+		.shou{padding-top: 33px;padding-right: 79px; float: left}
+		.ha ul li{padding-top: 42px;float: left;padding-right: 60px;font-size:18px;font-family:Microsoft YaHei;font-weight:400;color:black;vertical-align:top }
+		.form{float: right: ; }
+		.form .sea{width:360px;height:40px;}
+		.form .sub{width: 51px;height: 41px;border: 1px solid blue;background: blue url(web/fa-search.png) no-repeat center center;cursor: pointer;}
+		.geren{float: right;padding:44px 31px  }
+		/* yi */
+		.f{width:1920px;height:420px;background:rgba(27,3,107,1);position: relative }
+		.f img{padding-left: 380px ; margin: 0 auto;}
+		.f ul{width: 190px; position: absolute;top: 1px;padding-left: 360px;background:rgba(0,0,0,1);opacity:0.3;}
+		.f ul li{padding:15px;font-color:#00B4FF;}
+		/* er */
+		 .s{width: 1210px;height: 80px; margin:8px  auto ;}
+		.s ul li {width: 65px;height: 18px; padding:21px 34px ;border-right: 1px solid black ; float: right:}
+		/* san */
+		.n{width: 1200px;height: 19px;margin:20px auto }
+		.n p{width:80px;height:19px;font-size:19px;font-family:Microsoft YaHei;font-weight:400;color:rgba(72,72,72,1);float: left: }
+		.n a{width:48px;height:13px;font-size:12px;font-family:Microsoft YaHei;font-weight:400;color:rgba(165,165,165,1);float: right: }
+		/* si */
+		.i{width: 1200px;height: 280px}
+		.i ul li{float: left: }
+	</style>
+</head>
+<body>
+	<div class="guzhangyan">
+	   <div class="ha">
+            <img src="web/雪梨在线.png" alt="" class="shou">
+            <ul class="nav fl clear">
+                <li class="f"><a href="#">首页</a></li>
+                <li><a href="#">课程</a></li>
+                <li><a href="#">职业规划</a></li>
+                <li class="last"><a href="#">俱乐部</a></li>
+            </ul>
+            <form class="form clear">
+                <input type="text" placeholder="输入关键字" class="sea" />
+                <input type="button" placeholder="1" class="sub" />
+            </form>
+       </div>        
+	   <div class="f">
+		<img src="web/banner2.png" alt="" class="">
+			<ul class="f ul">
+				<li><a href="#">前端开发 &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+				<li><a href="#">后端开发 &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+				<li><a href="#">移动开发 &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp></a></li>
+				<li><a href="#">人工智能 &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+				<li><a href="#">商业预测 &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp></a></li>
+				<li><a href="#">云计算&大数据&nbsp ></a></li>
+				<li><a href="#">运维&从测试&nbsp&nbsp&nbsp></a></li>
+				<li><a href="#">UI设计 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+				<li><a href="#">产品 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+			</ul>
+	   </div>
+	   <div class="s">
+        <ul class="j">  
+			<li class="j">精品推荐</li>
+			<li><a href="#">JQuery</a></li>
+			<li><a href="#">Spark</a></li>
+			<li><a href="#">MySQL</a></li>
+			<li><a href="#">JavaWeb</a></li>
+			<li><a href="#">MySQL</a></li>
+			<li><a href="#">JavaWeb</a></li>
+			<li><a class="xing" href="#">修改兴趣</a></li>
+		</ul>
+	   </div>
+	   <div class="n">
+		<p>精品推荐</p>
+		<a href="#">查看全部</a>
+	   </div>
+	   <div class="i">
+		   <ul>
+			<li class="t">
+				<img src="web/图片 33.png" alt="">
+				<p>Think PHP 5.0 博客系统实战项目演练</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			<li class="t">
+				<img src="web/图片 35.png" alt="">
+				<p>Android 网络图片加载框架详解</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			<li class="t">
+				<img src="web/图片 36.png" alt="">
+				<p>Angular 2 最新框架+主流技术+项目实战</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			<li class="t">
+				<img src="web/图片 37.png" alt="">
+				<p>Android Hybrid APP开发实战 H5+原生！</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			
+		   </ul>
+	   </div>
+	   <div class="i">
+		<ul>
+			<li>
+				<img src="web/图片 33.png" alt="">
+				<p>Think PHP 5.0 博客系统实战项目演练</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			<li>
+				<img src="web/图片 35.png" alt="">
+				<p>Android 网络图片加载框架详解</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			<li>
+				<img src="web/图片 36.png" alt="">
+				<p>Angular 2 最新框架+主流技术+项目实战</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			<li>
+				<img src="web/图片 37.png" alt="">
+				<p>Android Hybrid APP开发实战 H5+原生！</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			
+		</ul>
+	   </div>
+	   <div class="w">
+		<p>前端工程师</p>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<a href="#">查看全部</a>
+		</ul>
+	   </div>
+	   <div class="l">
+		<ul>
+			<li>
+				<img src="web/图片 2.png" alt="">
+				<p>微软人工智能-数据分析平台</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			<li>
+				<img src="web/图片 3.png" alt="">
+				<p>Unity Profiler入门</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			<li>
+				<img src="web/图片 4.png" alt="">
+				<p>Cocos2d-x 引擎源码中的纹理优化</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+			
+			<li>
+				<img src="web/图片 6.png" alt="">
+				<p>Android Hybrid APP开发实战 H5+原生!</p>
+				<p><span>高级</span>1125人在学习</p>
+			</li>
+		</ul>
+	   </div>
+	   <div class="ren">
+		   <p>牛人推荐</p>
+	   </div>
+	   <div class="q">
+		<ul>
+			<li>
+				<img src="web/图片 9.png" alt="">
+				<p><span>毕业季</span>带你华丽转身</p>
+				<a href="#">点击查看</a>
+			</li>
+			<li>
+				<img src="web/20172124182104355.png" alt="">
+				<p><span>闻老师   大数据</span>高级互联网软件工程师，曾担任某物流公司CRM开发团队TL。多年JAVAEE、大数据领域研发……</p>
+			</li>
+			<li>
+				<img src="web/20154025104058710.png" alt="">
+				<p><span>汪老师   前端 </span>高级软件架构师，全栈开发，多年大型项目管理经验。对Web Components、Node.js……</p>
+			</li>
+			<li>
+				<img src="web/20154325104317144 (1).png" alt="">
+				<p><span>江老师   前端 </span>多年软件开发经验和教学经验，精通html，css，js,asp.net等编程语言和数据库系统……</p>
+			</li>
+		</ul>
+	   </div>
+	   <div class="b">
+		<ul>
+			<li>雪梨在线</li>
+			<li><p>致力于普及中国最好的教育,与中国一流大学和机构合作提供在线课程。</p></li>
+			<li><a href="#">下载APP</a></li>
+		</ul>
+		<ul>
+			<li><p>关于雪梨</p></li>
+			<li><a href="">关于</a></li>
+			<li><a href="">管理团队</a></li>
+			<li><a href="">工作机会</a></li>
+			<li><a href="">客户服务</a></li>
+			<li><a href="">帮助</a></li>
+		</ul>
+		<ul>
+			<li><p>新手指南</p></li>
+			<li><a href="">如何注册</a></li>
+			<li><a href="">如何选课</a></li>
+			<li><a href="">如何拿到毕业证</a></li>
+			<li><a href="">学分是什么</a></li>
+			<li><a href="">考试未通过怎么办</a></li>
+		</ul>
+		<ul>
+			<li><p>合作伙伴</p></li>
+			<li><a href="">合作机构</a></li>
+			<li><a href="">合作导师</a></li>
+		</ul>
+	   </div>
+	</div>
+</body>
+</html>
